@@ -6,6 +6,9 @@
     "ios": "expo start --ios",
     "web": "expo start --web"
   },
+  "resolutions": {
+    "@types/react": "17.0.43"
+  },
   "dependencies": {
     "@react-navigation/native": "^6.0.11",
     "@react-navigation/native-stack": "^6.7.0",
