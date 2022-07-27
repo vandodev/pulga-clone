@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigation } from "@react-navigation/native";
-
+import { Button } from "../../components/Button";
 import BannerBackground from "../../../assets/images/banner/banner.png";
 
 import {
@@ -29,7 +29,9 @@ const OnBoarding = () => {
           A forma mais divertida e rápida de conhecer lugares incríveis
         </SubTitle>
       </ContentContainer>
-      <ButtonContainer></ButtonContainer>
+      <ButtonContainer>
+        <Button title="Entrar" onPress={handleGoToHome} />
+      </ButtonContainer>
     </Container>
   );
 };
